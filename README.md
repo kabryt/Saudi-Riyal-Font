@@ -29,3 +29,4 @@ Example:
     <p>This is the symbol from the Kabryt font for use new Saudi Riyal symbol code e900:</p>
     <span class="icon"></span>
 ```
+<h1> <span style="font-family: 'Kabryt'">&#xE900;</span>90  سعر الحقيبة</h1>
