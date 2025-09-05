@@ -1,4 +1,6 @@
 # Saudi-Riyal-Font
+Saudi Riyal Font AbuZiad - Used under SIL Open Font License 1.1
+
 This font allows you to use the Saudi Riyal currency symbol in websites, applications, and documents, ensuring compatibility in cases where the underlying system does not support this currency symbol.  Its use is very simple; simply use the code e900.
 
 Example:
@@ -27,4 +29,3 @@ Example:
     <p>This is the symbol from the Kabryt font for use new Saudi Riyal symbol code e900:</p>
     <span class="icon"></span>
 ```
-Saudi Riyal Font AbuZiad - Used under SIL Open Font License 1.1
