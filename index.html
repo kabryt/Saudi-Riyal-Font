@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Font Example</title>
+    <style>
+        @font-face {
+            font-family: 'Kabryt';
+            src: url('Kabryt-bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .icon {
+            font-family: 'Kabryt', sans-serif;
+            font-size: 20px;
+        }
+
+        .icon::before {
+            content: "\e900";
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>Custom Font Symbol Example</h1>
+
+    <p>This is the symbol from the Kabryt font for use new Saudi Riyal symbol code e900:</p>
+    <span class="icon"></span>
+    
+<h3>مثال لاستخدام الفونت كرمز التحكم بحجمه من css</h3>
+    <h1> <span class="icon"></span>90  سعر الحقيبة</h1>
+
+<h3>مثال لاستخدام الرمز بشكل مباشر بحيث يكون نفس حجم الكتابة </h3>
+<h1> <span style="font-family: 'Kabryt'">&#xE900;</span>90  سعر الحقيبة</h1>
+</center>
+</body>
+</html>
